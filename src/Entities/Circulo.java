@@ -15,8 +15,6 @@ public class Circulo {
     }
     @Override
     public String toString() {
-        return "Circulo{" +
-                "raio='" + raio + '\'' +
-                '}';
+        return "Valor raio: " + raio;
     }
 }

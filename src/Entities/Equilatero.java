@@ -10,7 +10,7 @@ public class Equilatero {
         this.lado3 = lado3;
     }
 
-    public static Equilatero getInstance(int lado1, int lado2, int lado3) {
+    public static Equilatero getInstance (int lado1, int lado2, int lado3) {
         if (instance == null) {
             instance = new Equilatero(lado1, lado2, lado3);
         }

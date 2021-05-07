@@ -9,8 +9,6 @@ public class Quadrado {
 
     @Override
     public String toString() {
-        return "Quadrado{" +
-                "lado='" + lado + '\'' +
-                '}';
+        return "" + lado;
     }
 }

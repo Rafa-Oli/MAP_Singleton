@@ -4,6 +4,8 @@ public class Program {
     public static void main(String[] args) {
         Circulo circulo = Circulo.getInstance(2);
         System.out.println(circulo.toString());
+        Circulo circulo1 = Circulo.getInstance(1);
+        System.out.println(circulo1);
 
         Quadrado quadrado1 = new Quadrado(3);
         System.out.println(quadrado1.toString());
